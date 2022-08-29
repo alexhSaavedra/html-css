@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head-container{
+    padding: 15px;
+    background-color: grey;
+}
+.head-container p{
+    display: inline-block;
+    position: initial;
+}
+.nav-bar {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.nav-bar ol {
+    list-style: none;
+}
+.nav-bar ol li {
+    display: inline-block;
+    padding-right: 15px;
+    
+}
+.nav-bar ol li a{
+    text-decoration: none;
+    color: white ;
+}
+.main-container{
+    display: block;
+    margin-top: 0;
+}
+.forum{
+    display: inline-block;
+}
+.forum p{ 
+    display: inline-block;
+    width: 60vw;
+    position: absolute;
+    right: 10px;
+}
+.container-footer{
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+.container-footer div{
+    display: inline-block;
+    padding-top: 15px;
+}
+.nav{
+   
+    position: relative;
+    left: 30px;
+  
+    list-style: none;
+}
+.correo{
+    position: absolute;
+    right: 25px;
+    color: white;
+}
+img{
+    padding-bottom: 15px;
+    display: block;
+    width: 30vw;
+    height: 30vh;
+}
+.main-container div:nth-child(2){
+    padding-left: 2%;
+    background-color: bisque;
+    width: 35%;
+}
