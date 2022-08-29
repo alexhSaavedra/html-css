@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 2px black dotted ;
+    display: inline-block;
+}
+.box{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+#two{
+    position: relative;
+    bottom: 20px;
+    background-color: aquamarine;
+
+}
