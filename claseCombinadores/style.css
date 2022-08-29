@@ -1,4 +1,16 @@
-h2 +p {
+/* combinador cercano adjacent sibling */
+/* h2 +p {
     color: red;
 }
-/* combinador cerca adjacent sibling */
+ */
+ /*  COMBINADOR GENEARL  este entran los elementos que se ecuentren en la misma linea */
+/*  h2 ~p{
+    color: red;
+ } */
+ /* COMBINADOR HIJO DIRECTO los elementos uqe son hijos de el de la eiqueta padre en este caso divs */
+/*  div > p{
+    color: green;
+ } */
+ div p{
+    color: rebeccapurple;
+ }
